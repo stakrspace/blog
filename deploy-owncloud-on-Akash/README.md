@@ -136,11 +136,7 @@ EOF>>
 
 You may use the sample deployment file as-is or modify it for your own needs as desscribed in our [SDL (Stack Definition Language](https://docs.akash.network/documentation/sdl) documentation.
 
-{% hint style="warn" %}
-
 Please note if you are running on the testnet, you are limited in the amount of testnet resources you may request.
-
-{% endhint %}
 
 To deploy on Akash, run:
 
