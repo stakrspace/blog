@@ -1,8 +1,5 @@
 # Intro
 The cloud marketplace is dominated by a few players running exceptionally efficient operations with large scale infrastructure.  This gives phenomenal power to these businesses, through which most of the net transits nowadays.  Regardless of the improved security a number of these cloud suppliers provide, the overall industry remains opaque to the customers.
-
-
-# Aligned Values
 Akash is your initial decentralized cloud computing market, and also a Proof-of-Stake blockchain protocol built with interoperability in mind using the Cosmos SDK.
 
 # Safe Infrastructure
