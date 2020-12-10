@@ -26,7 +26,7 @@ Using a centralized cloud operator means that your data will be stored in a few 
 
 Flexible and Easy Deployment
 
-Applications can be deployed in a simple and easy manner on Akash DeCloud. The marketplace offers increased flexibility, with the possibility to switch to other computing resources provider without the usual friction. Deploying applications on Akash network is very easy, and shifting provider as well. Have a look at their documentation and some of the deployment examples. Here is a guide to deploy a Serum DEX on Akash.
+Applications can be deployed in a simple and easy manner on Akash DeCloud. The marketplace offers increased flexibility, with the possibility to switch to other computing resources provider without the usual friction. Deploying applications on Akash network is very easy, and shifting provider as well. 
 
 Blockchain-grade Privacy
 
@@ -42,7 +42,7 @@ DeCloud shares the same values as the DeFi projects out there. DeCloud has the p
 
 Get to know more
 
-Stakin Official Website: Stakin operates a validator node on the Akash Mainnet network. If you liked this content, you can support our validator by delegating your AKT to it and earning inflation rewards
+
 Akash Official Website
 The Akashian Challenge
 Akash Whitepaper
