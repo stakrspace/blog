@@ -1,0 +1,5 @@
+My expertise with Akash began from the newsflash in a messenger, where has been declared the tesnet at Stage 3 on Akash community has begun. I had an adventure with conducting a validator nodes in a few other projects. Akash was the starting point to learn about the new sort of blockchain architecture and get my initial experience using a Tendermint blockchain.
+
+The Akash staff and community I got in, seems pretty friendly and useful. There was no lack of people keen to talk about their knowledge. It took me a few times to catch up and in order to dip somewhat profound in Akash network.
+
+In this time I've learned the principles of Cosmos established validators, improved my understanding of Linux administration. True I had any problems connecting validator to peers on testnet because of community highload, therefore I couldn't keep the validator node greater than 80% uptime for among their competition, but like I experimented a whole lot, it gave me quite promising understanding. Now it appears simple to conduct validator, RPC and API node simultaneously, but was not look so at the beginning.
