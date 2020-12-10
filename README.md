@@ -7,8 +7,9 @@ Here we have some new posts:
 
 [Post on why DeCloud is important for DeFi](defi-decloud)
 
-And soon:
 
 [Thoughts on deployment strategies for deploying secure applications on Akash DeCloud](deployment-strategies)
+
+And soon:
 
 [My experience as a validator on Akash's testnet.](akash-testnet-validator)
