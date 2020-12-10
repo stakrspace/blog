@@ -8,8 +8,6 @@ DeCloud shares the same worth as the DeFi jobs on the market.  DeCloud has the c
 
 # DeCloud explained 
 Cloud companies make life easier for software developers, since they don't need to worry too much about setting up a reliable and secure infrastructure.  Even though this can save a lot of time, tools, and upfront hardware costs, when software scale onto the cloud, they can occasionally wind up being quite expensive from the long term.  And once locked-in, it's difficult to internalize the infrastructure or switch to another provider.  DeCloud, according to Akash, can be up to 10x cheaper compared to traditional cloud alternatives.  Akash enables such competitive pricing by bringing to advertise the available capacity from much of the underutilized compute assets.  Anybody with additional compute capacity can grow to be a cloud supplier.  From a customer standpoint, it offers the exact same sort of service, and using a serverless strategy.
-  
-# Why DeCloud is significant for DeFi?
 For programmers, DeCloud provides better flexibility, security and pricing than traditional cloud alternatives.  Just like other serverless technology, it frees programmers from setting up and maintaining host infrastructure.  On the other hand, it enables everyone to use some of its underutilized computing resources, and eventually become a cloud provider, offering new opportunities and making the cloud marketplace more effective.  A lot of the data centres worldwide are underutilized and can gain from this type of decentralized marketplace.
 
 # Blockchain-grade Privacy
