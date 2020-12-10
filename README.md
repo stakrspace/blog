@@ -9,6 +9,6 @@ Here we have some new posts:
 
 And soon:
 
-[My thoughts on deployment strategies for deploying secure applications on Akash DeCloud](deployment-strategies)
+[Thoughts on deployment strategies for deploying secure applications on Akash DeCloud](deployment-strategies)
 
 [My experience as a validator on Akash's testnet.](akash-testnet-validator)
