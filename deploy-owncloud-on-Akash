@@ -1,0 +1,70 @@
+Deploying owncloud on Akash
+
+This is a guide to deploying on Akash an owncloud docker app in a non-custodial way. Akash is a permissionless and censorship-resistant cloud network that guarantees sovereignty over your data and your applications. With Akash, you’re in complete control of all aspects of the life cycle of an application with no middleman.
+
+Readme is adapted from Deploying ThorChain BEPSwap UI on Akash, which is an excellent guide to getting started with DeFi deployments on Akash DeCloud.
+
+Before We Begin
+
+This is a technical guide, best suited to a reader with basic Linux command line knowledge. The audience for this guide is intended for includes:
+
+Application developers with little or no systems administration experience, wanting to deploy applications on the decentralized cloud.
+System administrators with little or no experience with infrastructure automation, wanting to learn more.
+Infrastructure automation engineers that want to explore decentralized cloud.
+Anyone who wants to get a feel for the current state of the decentralized cloud ecosystem.
+You will need the below setup before we being:
+
+Install Akash: Make sure to have Akash client installed on your workstation, check install guide for instructions.
+Choose Your Akash Network: You'll need to know information about the network you're connecting your node to. See Choosing a Network for how to obtain any network-related information.
+Fund Your Account: You'll need a AKT wallet with funds to pay for your deployment. See the funding guide creating a key and funding your account.
+You don't need to install docker since you can choose any public available image on dockerhub.
+
+Set up your Environment
+
+We will be using shell variables throughout this guide for convenience and clarity. Ensure you have the below set of variables defined on your shell, you can use export VARNAME=...:
+
+Name	Description
+AKASH_NODE	Akash network configuration base URL. See here.
+AKASH_CHAIN_ID	Chain ID of the Akash network connecting to. See here.
+ACCOUNT_ADDRESS	The address of your account. See here.
+KEY_NAME	The name of the key you will be deploying from. See here if you haven't yet setup a key
+Verify you have correct $AKASH_NODE, that you have populated while configuring the connection using export AKASH_NODE=$(curl -s "$AKASH_NET/rpc-nodes.txt" | shuf -n 1).
+
+echo $AKASH_NODE $AKASH_CHAIN_ID
+You should see a response similar to:
+
+tcp://rpc-edgenet.akashdev.net:2665 akash-edgenet-1
+Your values may differ depending on the network you're connecting to, tcp://rpc-edgenet.akashdev.net:2665 and akash-edgenet-1 are details for edgenet.
+
+Verify you have the key set up and your account has sufficient balances, see the funding guide otherwise:
+
+My local key is named bob, the below command should return the name you've used:
+
+echo $KEY_NAME
+The above should return a response similar to:
+
+bob
+
+Populate ACCOUNT_ADDRESS from KEY_NAME and verify:
+
+export ACCOUNT_ADDRESS="$(akash keys show $KEY_NAME -a)"
+
+echo $ACCOUNT_ADDRESS
+
+akash1tdg2j786lgvdzh3flcu29qhq5rv093zuajxgag
+
+Fund your account on https://akash.vitwit.com/faucet
+
+Check your account has sufficient balance by running:
+
+akash query bank balances --node $AKASH_NODE $ACCOUNT_ADDRESS
+You should see a response similar to:
+
+balances:
+- amount: "93000637"
+  denom: uakt
+pagination:
+  next_key: null
+  total: "0"
+Please note the balance indicated is is denominated in uAKT (AKT * 10^-6), in the above example, the account has a balance of *93 AKT*. We're now setup to deploy.
+
