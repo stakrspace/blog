@@ -1,49 +1,24 @@
-With Akashian Phase 3 Challenge off to a great start, we would like to introduce you to DeCloud (Decentralized Cloud), and more specifically Akash. Akash is the first decentralized cloud computing marketplace, and a Proof-of-Stake blockchain protocol built with interoperability in mind using the Cosmos SDK.
-
-While DeCloud has and will have a whole lot of use cases in most industries, we believe that it will find a specific fit with DeFi (Decentralized Finance) applications. If you’re not yet familiar with DeCloud or Akash, you will find our introduction to DeCloud helpful. Otherwise, you may skip this part and jump to Why DeCloud is important for DeFi.
-
-What is DeCloud? ☁️
-
-DeCloud runs on the blockchain and is an alternative to traditional centralized cloud operators. The Akash Network DeCloud is a marketplace where those who need computing resources and those who have computing capacity can get connected and enter into lease agreements.
-
-For developers, DeCloud offers better flexibility, pricing and security than traditional cloud solutions. Just like other serverless technologies, it frees developers from setting up and maintaining server infrastructure. On the other hand, it enables anyone to use some of its underutilized computing resources, and become a cloud provider, offering new opportunities and making the cloud market more efficient. Much of the data centres worldwide are underutilized and can benefit from such a decentralized marketplace.
-
-Why DeCloud is important for DeFi? 🏦
-
-Oligopolistic Market
-
-The cloud market is dominated by a few players running highly efficient operations with large scale infrastructure. This gives phenomenal power to these companies, through which most of the web transits nowadays. Despite the improved security some of these cloud providers offer, the overall industry remains opaque to the customers.
-
-Image for post
-A few players lead the $100bn cloud market, Source: Synergy Research Group
-Diversified Downtime Risk
-
-The traditional cloud operators such as AWS, GCP, IBM use large data centres as clusters to centralize their services and gain efficiency. However, this creates important single points of failure, which can sometimes result in catastrophic outages for whole regions. With DeCloud, applications run in containers at providers and can easily be switched between providers. Even if one provider is down, the application will still be running as another provider in the network can take the job. Needless to say, uptime is critical for financial applications handling billions in transactions.
-
-Secure Infrastructure
-
-Using a centralized cloud operator means that your data will be stored in a few places in some of these large data centres. Once again, these are single points of failure. The architecture of DeCloud avoids such single points of failure, by distributing blocks of data in containers to matched providers.
-
-Flexible and Easy Deployment
-
-Applications can be deployed in a simple and easy manner on Akash DeCloud. The marketplace offers increased flexibility, with the possibility to switch to other computing resources provider without the usual friction. Deploying applications on Akash network is very easy, and shifting provider as well. 
-
-Blockchain-grade Privacy
-
-DeCloud is pseudonymous and anybody can deploy applications without having to share his full identity. In the current cloud market, customers information can be legally accessed by local law enforcement bodies, or illegally if a provider is hacked.
-
-Competitive Pricing
-
-Cloud services make life easier for application developers, as they don’t have to worry too much about setting up a reliable and secure infrastructure. While this can save lots of time, resources, and upfront hardware costs, when applications scale on the cloud, they can sometimes end up being very expensive in the long-term. And once locked-in, it’s hard to internalize the infrastructure or switch to another provider. DeCloud, as stated by Akash, can be up to 10x cheaper compared to traditional cloud solutions. Akash enables such competitive pricing by bringing to market the available capacity from much of the underutilized compute resources. Anybody with extra compute capacity can become a cloud provider. From a customer perspective, it still offers the same kind of service, and with a serverless approach.
-
-Aligned Values
-
-DeCloud shares the same values as the DeFi projects out there. DeCloud has the potential to become to DeFi web apps what smart-contracts have enabled in the back-end: serverless, permissionless, trustless environments. While Dapps are built on blockchains with no central authority and no single point of failures, web applications for these Dapps still largely run on traditional cloud providers. Akash offers the opportunity for DeCloud and DeFi to meet, beyond simple storage.
-
-Get to know more
+#Intro
+The cloud marketplace is dominated by a few players running exceptionally efficient operations with large scale infrastructure.  This gives phenomenal power to these businesses, through which most of the net transits nowadays.  Regardless of the improved security a number of these cloud suppliers provide, the overall industry remains opaque to the customers.
 
 
-Akash Official Website
-The Akashian Challenge
-Akash Whitepaper
-DISCLAIMER: This is not financial advice. Staking, delegation, and cryptocurrencies involve a high degree of risk, and there is always the possibility of loss, including the loss of all staked digital assets. Additionally, delegators are at risk of slashing in case of security or liveness faults on some protocols. We advise you to do your due diligence before choosing a validator.
+#Aligned Values
+Akash is your initial decentralized cloud computing market, and also a Proof-of-Stake blockchain protocol built with interoperability in mind using the Cosmos SDK.
+
+#Safe Infrastructure
+DeCloud runs on the blockchain and is an alternative to conventional centralized cloud operators.  The Akash Network DeCloud is a marketplace where people who need computing resources and those who have computing capability can get linked and enter into lease agreements.
+DeCloud shares the same worth as the DeFi jobs on the market.  DeCloud has the capability to turn into DeFi web programs what smart-contracts have empowered in the backend: serverless, permissionless, trustless environments.  While Dapps are constructed on blockchains without a central authority and no single point of failures, web applications for all these Dapps still mainly run on conventional cloud providers.  
+
+#DeCloud explained 
+Cloud companies make life easier for software developers, since they don't need to worry too much about setting up a reliable and secure infrastructure.  Even though this can save a lot of time, tools, and upfront hardware costs, when software scale onto the cloud, they can occasionally wind up being quite expensive from the long term.  And once locked-in, it's difficult to internalize the infrastructure or switch to another provider.  DeCloud, according to Akash, can be up to 10x cheaper compared to traditional cloud alternatives.  Akash enables such competitive pricing by bringing to advertise the available capacity from much of the underutilized compute assets.  Anybody with additional compute capacity can grow to be a cloud supplier.  From a customer standpoint, it offers the exact same sort of service, and using a serverless strategy.
+  
+#Why DeCloud is significant for DeFi?
+For programmers, DeCloud provides better flexibility, security and pricing than traditional cloud alternatives.  Just like other serverless technology, it frees programmers from setting up and maintaining host infrastructure.  On the other hand, it enables everyone to use some of its underutilized computing resources, and eventually become a cloud provider, offering new opportunities and making the cloud marketplace more effective.  A lot of the data centres worldwide are underutilized and can gain from this type of decentralized marketplace.
+
+#Blockchain-grade Privacy
+Using a centralized cloud operator means your data will be stored in a couple of places in some of those large data centers.  Once again, these are single points of failure.  The design of DeCloud avoids such single points of failure, by distributing blocks of information in containers to accommodate suppliers.
+Applications can be set up in a simple and effortless way on Akash DeCloud.  The marketplace offers increased flexibility, together with the chance to change to other computing resources supplier without the usual friction.  Deploying software on Akash network is very simple, and changing provider too.  Have a look at their documentation and a number of the deployment examples.  Here's a manual to deploy a Serum DEX on Akash.
+DeCloud is pseudonymous and anybody can deploy applications without needing to share his entire identity.  In the present cloud market, customers info could be legally accessed by local law enforcement bodies, or even in case a provider is hacked.
+
+The traditional cloud operators such as AWS, GCP, IBM use large data centres as clusters to centralize their services and gain efficiency.  But this creates significant single points of failure, that could sometimes result in catastrophic flashes  for whole areas.  With DeCloud, software run in containers at providers and can easily be changed between providers.  Even if a single provider is down, the program will still be operating as a different provider in the network can choose the job.  Needless to say, uptime is critical for financial applications managing billions in transactions.
+Even though DeCloud has and is going to have a whole lot of use cases in most industries, I believe it will find a specific fit with DeFi applications.
