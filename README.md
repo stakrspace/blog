@@ -12,3 +12,7 @@ Here we have some new posts:
 [My experience as a validator on Akash's testnet.](akash-testnet-validator)
 
 [Akash deployments and persistent storage](https://github.com/papanomad535/blog/blob/main/akash-deployment/deployments-and-persistent-storage.md)
+
+[Klever testnet validator](https://github.com/papanomad535/blog/blob/main/klever-testnet/validator-setup.md)
+
+[Easy Telegram monitoring for Klever](https://github.com/papanomad535/blog/blob/main/klever-testnet/easy-telegram-monitoring.md)
