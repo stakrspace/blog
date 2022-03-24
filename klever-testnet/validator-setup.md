@@ -66,4 +66,24 @@ docker run -it --rm \
 
 This way is to run node not in background, it's supposed that you use ```tmux``` or ```screen``` to observe the node status.
 
+After that you should register the validator using:
+
+```
+docker run -it --rm --user "$(id -u):$(id -g)" \
+    -v $(pwd)/wallet:/opt/klever-blockchain \
+    --network=host \
+    --entrypoint=/usr/local/bin/operator \
+    kleverapp/klever-go-testnet:latest \
+    --key-file=./walletKey.pem \
+    --node=https://node.testnet.klever.finance \
+    validator create \
+    <your klv1 address> \
+    --bls=<bls address from ~/node/validatorKey.pem> \
+    --rewards=<your klv1 address> \
+    --name=<your validator name> \
+    --commission=5 \
+    --maxDelegation=12000000 \
+    --uris="github=github.com/<your github>"
+```   
+
 The monitoring guide follows...
