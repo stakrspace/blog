@@ -86,4 +86,30 @@ docker run -it --rm --user "$(id -u):$(id -g)" \
     --uris="github=github.com/<your github>"
 ```   
 
+The funds from the account need to be frozen first
+
+```
+docker run -it --rm --user "$(id -u):$(id -g)" \
+    -v $(pwd)/wallet:/opt/klever-blockchain \
+    --network=host \
+    --entrypoint=/usr/local/bin/operator \
+    kleverapp/klever-go-testnet:latest \
+    --key-file=./walletKey.pem \
+    --node=https://node.testnet.klever.finance account freeze 1500000
+```
+
+And delegated after
+
+```
+docker run -it --rm --user "$(id -u):$(id -g)" \
+    -v $(pwd)/wallet:/opt/klever-blockchain \
+    --network=host \
+    --entrypoint=/usr/local/bin/operator \
+    kleverapp/klever-go-testnet:latest \
+    --key-file=./walletKey.pem \
+    --node=https://node.testnet.klever.finance \
+    account delegate \
+    <klv1....> \
+    --bucketID=<frozen txid>
+```
 The monitoring guide follows...
