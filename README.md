@@ -3,6 +3,8 @@ Welcome to my blog about blockchain.
 
 Here we have some new posts:
 
+[BlockPi testnet monitoring](klaytn-testnet-monitoring)
+
 [Deploy docker app on Akash](deploy-owncloud-on-Akash)
 
 [Post on why DeCloud is important for DeFi](defi-decloud)
