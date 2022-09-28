@@ -1,27 +1,27 @@
 groups:
-- name: Klaytn Alerts  
-  rules:
-
-  - alert: ValidatorMissingBlocks
-    expr: rate(tendermint_consensus_validator_missed_blocks[5m]) > 10
-    for: 1m
-    labels:
-      severity: major
-    annotations:
-      description: "Validator missing blocks (&gt;=10 in last 5 minutes)"
-
-  - alert: ValidatorDegradedSyncing
-    expr: increase(tendermint_consensus_latest_block_height[5m]) < 20
-    for: 5m
-    labels:
-      severity: major
-    annotations:
-      description: "Degraded syncing performance (less than 20 blocks in the last 5 min)"
-
-  - alert: ValidatorTooFewPeers
-    expr: tendermint_p2p_peers < 3
-    for: 5m
-    labels:
-      severity: major
-    annotations:
-      description: "Number of peers is lower than threshold (&lt;3)"
+  - name: klaytn-node-alert
+    rules:
+    - alert: klaytn-node-down
+      expr: up{class="klaytn-rpc-node"} == 0
+      for: 1m
+      labels:
+        severity: warn
+      annotations: 
+        summary: "Klaytn Endpoint Node not responding"  
+        description: "- instance: {{ $labels.instance }} \n- name: {{ $labels.name }} Klaytn Endpoint Node keeps not responding more than 1 mi" 
+        value: "{{ $value }}"
+        instance: "{{ $labels.instance }}"
+        id: "{{ $labels.instanceid }}"
+  - name: HyperNode-node-alert
+    rules:
+    - alert: HyperNode-node-down
+      expr: up{class="HyperNode"} == 0
+      for: 1m
+      labels:
+        severity: warn
+      annotations: 
+        summary: "HyperNode not responding"  
+        description: "- instance: {{ $labels.instance }} \n- name: {{ $labels.name }} HyperNode keeps not responding more than 1 min" 
+        value: "{{ $value }}"
+        instance: "{{ $labels.instance }}"
+        id: "{{ $labels.instanceid }}"
