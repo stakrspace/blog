@@ -3,6 +3,8 @@ Welcome to my blog about blockchain.
 
 Here we have some new posts:
 
+[Haqq monitoring with Tenderduty](https://github.com/papanomad535/blog/blob/main/tenderduty-monitoring/haqq.md)
+
 [BlockPi testnet monitoring](klaytn-testnet-monitoring)
 
 [Deploy docker app on Akash](deploy-owncloud-on-Akash)
