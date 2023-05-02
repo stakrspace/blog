@@ -22,3 +22,5 @@ Here we have some new posts:
 [Easy Telegram monitoring for Klever](https://github.com/papanomad535/blog/blob/main/klever-testnet/easy-telegram-monitoring.md)
 
 [Klever network overview](https://github.com/papanomad535/blog/blob/4caf107a66a8f99ae60288fff0c7b8b652ca4dbf/klever-testnet/klever-overview.md)
+
+[Humans.ai testnet node guide](https://github.com/papanomad535/blog/blob/main/humansdotai.md)
